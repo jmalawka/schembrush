@@ -1,0 +1,19 @@
+messages:
+  player_only: "&c(!) Only a player can do this!"
+  no_perm: "&c(!) You do not have the permission to execute this command!"
+  success: "&a(!) Successfully set your brush to the schematic brush!"
+  error: "&c(!) You need to specify one or more schematics!"
+  success_multi: "&a(!) Successfully set and loaded &7%n&a schematics!"
+  help:
+    - "&7 === &a&lSchemBrush Help &7==="
+    - "&a/schembrush &8- &7Changes your brush to your clipboard."
+    - "&a/schembrush &7schem,schem1 &8- &7Changes your brush to the schematics provided."
+    - "&a/schembrush &7help &8- &7Shows this message."
+    - "&7 === === === === === === ==="
+
+settings:
+  ignore_air: true # if the schematic placements should ignore air by default
+  offset: # change this if you have problems with the schematic pasting
+    x: 0
+    y: 1
+    z: 0

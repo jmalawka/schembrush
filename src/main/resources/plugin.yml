@@ -1,0 +1,12 @@
+name: SchemBrush
+version: '${project.version}'
+main: me.km127pl.sb.SchemBrush
+api-version: 1.19
+depend: [ WorldEdit ]
+authors: [ KM127PL ]
+description: A schematic brush for WorldEdit.
+commands:
+  schembrush:
+    permission: "schembrush.command.brush"
+    description: Change the brush to the schematic brush
+    usage: /schembrush [schematic1,schematic2]
